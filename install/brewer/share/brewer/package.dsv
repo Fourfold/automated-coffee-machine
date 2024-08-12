@@ -1,0 +1,8 @@
+source;share/brewer/hook/cmake_prefix_path.ps1
+source;share/brewer/hook/cmake_prefix_path.dsv
+source;share/brewer/hook/cmake_prefix_path.sh
+source;share/brewer/local_setup.bash
+source;share/brewer/local_setup.dsv
+source;share/brewer/local_setup.ps1
+source;share/brewer/local_setup.sh
+source;share/brewer/local_setup.zsh

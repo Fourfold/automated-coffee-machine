@@ -1,0 +1,27 @@
+[0.005s] Invoking command in '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer -- -j16 -l16
+[0.037s] [ 50%] [32mBuilding CXX object CMakeFiles/brewer_node.dir/src/brewer_node.cpp.o[0m
+[1.256s] [01m[K/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/src/brewer/src/brewer_node.cpp:[m[K In member function ‘[01m[Kvoid BrewerNode::brew_coffee(const String&)[m[K’:
+[1.256s] [01m[K/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/src/brewer/src/brewer_node.cpp:24:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.256s]    24 |         BT::NodeStatus [01;35m[Kstatus[m[K = tree.tickRoot();
+[1.256s]       |                        [01;35m[K^~~~~~[m[K
+[1.256s] [01m[K/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/src/brewer/src/brewer_node.cpp:20:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcoffee[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.256s]    20 |     void brew_coffee([01;35m[Kconst std_msgs::msg::String & coffee[m[K) {
+[1.256s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.313s] In file included from [01m[K/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/src/brewer/include/brewer/tree_nodes.h:2[m[K,
+[1.313s]                  from [01m[K/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/src/brewer/src/brewer_node.cpp:1[m[K:
+[1.313s] /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = BrewEspresso; std::string = std::__cxx11::basic_string<char>][m[K’:
+[1.313s] [01m[K/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/src/brewer/src/brewer_node.cpp:10:48:[m[K   required from here
+[1.313s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:407:19:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: [registerNode]: since you have a static method providedPorts(), you MUST add a constructor sign signature (const std::string&, const NodeParameters&)
+[1.313s] 
+[1.313s]   407 |     static_assert([01;31m[K!(has_static_ports_list && !param_constructable)[m[K, "[registerNode]: "
+[1.313s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.313s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:407:19:[m[K [01;36m[Knote: [m[K‘[01m[K((!(bool)has_static_ports_list) || ((bool)param_constructable))[m[K’ evaluates to false
+[1.313s] /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = BrewCappucino; std::string = std::__cxx11::basic_string<char>][m[K’:
+[1.313s] [01m[K/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/src/brewer/src/brewer_node.cpp:11:49:[m[K   required from here
+[1.313s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:407:19:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: [registerNode]: since you have a static method providedPorts(), you MUST add a constructor sign signature (const std::string&, const NodeParameters&)
+[1.313s] 
+[1.313s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:407:19:[m[K [01;36m[Knote: [m[K‘[01m[K((!(bool)has_static_ports_list) || ((bool)param_constructable))[m[K’ evaluates to false
+[2.484s] gmake[2]: *** [CMakeFiles/brewer_node.dir/build.make:76: CMakeFiles/brewer_node.dir/src/brewer_node.cpp.o] Error 1
+[2.485s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brewer_node.dir/all] Error 2
+[2.485s] gmake: *** [Makefile:146: all] Error 2
+[2.487s] Invoked command in '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer -- -j16 -l16

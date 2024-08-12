@@ -1,0 +1,19 @@
+<root>
+    <BehaviorTree>
+        <Sequence name="RootSequence">
+            <Sequence name="MakeCoffee">
+                <UserWantsCoffee user_wants_coffee="{user_wants_coffee}" />
+                <Fallback name="TryDifferentCoffees">
+                    <BrewEspresso coffee_type="{coffee_type}" />
+                    <BrewCappucino coffee_type="{coffee_type}" />
+                    <BrewLatte coffee_type="{coffee_type}" />
+                </Fallback>
+                <FillUpCoffeeMug />
+            </Sequence>
+            <Sequence name="CleanMachineSequence">
+                <IsCleaningMode clean_after_brewing="{clean_after_brewing}" />
+                <CleanMachine />
+            </Sequence>
+        </Sequence>
+    </BehaviorTree>
+</root>

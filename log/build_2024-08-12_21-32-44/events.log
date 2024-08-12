@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000199] (brewer) JobQueued: {'identifier': 'brewer', 'dependencies': OrderedDict()}
+[0.000494] (brewer) JobStarted: {'identifier': 'brewer'}
+[0.004382] (brewer) JobProgress: {'identifier': 'brewer', 'progress': 'cmake'}
+[0.004623] (brewer) JobProgress: {'identifier': 'brewer', 'progress': 'build'}
+[0.004981] (brewer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer', '--', '-j16', '-l16'], 'cwd': '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fourfold'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fourfold'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1968'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3e46dbb6e0e273051675db7066ba12fc'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fourfold'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fourfold'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/fourfold/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fourfold-Victus:@/tmp/.ICE-unix/1968,unix/fourfold-Victus:/tmp/.ICE-unix/1968'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d2fab482_5eb2_4eeb_b86b_9018974aeb5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.291'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3e46dbb6e0e273051675db7066ba12fc'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer:/opt/ros/humble')]), 'shell': False}
+[0.029590] (brewer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target brewer_node\x1b[0m\n'}
+[0.038808] (brewer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/brewer_node.dir/src/brewer_node.cpp.o\x1b[0m\n'}
+[0.100043] (-) TimerEvent: {}
+[0.200247] (-) TimerEvent: {}
+[0.300512] (-) TimerEvent: {}
+[0.400771] (-) TimerEvent: {}
+[0.501075] (-) TimerEvent: {}
+[0.601286] (-) TimerEvent: {}
+[0.701614] (-) TimerEvent: {}
+[0.801954] (-) TimerEvent: {}
+[0.902313] (-) TimerEvent: {}
+[1.002656] (-) TimerEvent: {}
+[1.103000] (-) TimerEvent: {}
+[1.203356] (-) TimerEvent: {}
+[1.279910] (brewer) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/src/brewer/src/brewer_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid BrewerNode::brew_coffee(const String&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.280057] (brewer) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/src/brewer/src/brewer_node.cpp:25:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kstatus\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.280094] (brewer) StderrLine: {'line': b'   25 |         BT::NodeStatus \x1b[01;35m\x1b[Kstatus\x1b[m\x1b[K = tree.tickRoot();\n'}
+[1.280122] (brewer) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.303532] (-) TimerEvent: {}
+[1.403782] (-) TimerEvent: {}
+[1.504142] (-) TimerEvent: {}
+[1.604355] (-) TimerEvent: {}
+[1.704627] (-) TimerEvent: {}
+[1.804948] (-) TimerEvent: {}
+[1.905216] (-) TimerEvent: {}
+[2.005449] (-) TimerEvent: {}
+[2.105750] (-) TimerEvent: {}
+[2.206086] (-) TimerEvent: {}
+[2.306400] (-) TimerEvent: {}
+[2.406732] (-) TimerEvent: {}
+[2.506977] (-) TimerEvent: {}
+[2.607294] (-) TimerEvent: {}
+[2.707643] (-) TimerEvent: {}
+[2.808004] (-) TimerEvent: {}
+[2.908214] (-) TimerEvent: {}
+[3.008491] (-) TimerEvent: {}
+[3.108809] (-) TimerEvent: {}
+[3.209062] (-) TimerEvent: {}
+[3.309386] (-) TimerEvent: {}
+[3.409678] (-) TimerEvent: {}
+[3.509960] (-) TimerEvent: {}
+[3.610182] (-) TimerEvent: {}
+[3.710495] (-) TimerEvent: {}
+[3.810805] (-) TimerEvent: {}
+[3.911074] (-) TimerEvent: {}
+[4.011381] (-) TimerEvent: {}
+[4.111629] (-) TimerEvent: {}
+[4.211959] (-) TimerEvent: {}
+[4.312163] (-) TimerEvent: {}
+[4.412346] (-) TimerEvent: {}
+[4.512602] (-) TimerEvent: {}
+[4.612918] (-) TimerEvent: {}
+[4.713222] (-) TimerEvent: {}
+[4.794092] (brewer) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable brewer_node\x1b[0m\n'}
+[4.813336] (-) TimerEvent: {}
+[4.913636] (-) TimerEvent: {}
+[5.006831] (brewer) StdoutLine: {'line': b'[100%] Built target brewer_node\n'}
+[5.013811] (-) TimerEvent: {}
+[5.015746] (brewer) CommandEnded: {'returncode': 0}
+[5.029177] (brewer) JobProgress: {'identifier': 'brewer', 'progress': 'install'}
+[5.033937] (brewer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer'], 'cwd': '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fourfold'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fourfold'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1968'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3e46dbb6e0e273051675db7066ba12fc'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fourfold'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fourfold'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/fourfold/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fourfold-Victus:@/tmp/.ICE-unix/1968,unix/fourfold-Victus:/tmp/.ICE-unix/1968'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d2fab482_5eb2_4eeb_b86b_9018974aeb5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.291'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3e46dbb6e0e273051675db7066ba12fc'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer:/opt/ros/humble')]), 'shell': False}
+[5.038308] (brewer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.038408] (brewer) StdoutLine: {'line': b'-- Installing: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/lib/brewer/brewer_node\n'}
+[5.041156] (brewer) StdoutLine: {'line': b'-- Set runtime path of "/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/lib/brewer/brewer_node" to ""\n'}
+[5.041235] (brewer) StdoutLine: {'line': b'-- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/ament_index/resource_index/package_run_dependencies/brewer\n'}
+[5.041275] (brewer) StdoutLine: {'line': b'-- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/ament_index/resource_index/parent_prefix_path/brewer\n'}
+[5.041313] (brewer) StdoutLine: {'line': b'-- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/environment/ament_prefix_path.sh\n'}
+[5.041345] (brewer) StdoutLine: {'line': b'-- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/environment/ament_prefix_path.dsv\n'}
+[5.041373] (brewer) StdoutLine: {'line': b'-- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/environment/path.sh\n'}
+[5.041404] (brewer) StdoutLine: {'line': b'-- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/environment/path.dsv\n'}
+[5.041431] (brewer) StdoutLine: {'line': b'-- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/local_setup.bash\n'}
+[5.041459] (brewer) StdoutLine: {'line': b'-- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/local_setup.sh\n'}
+[5.041486] (brewer) StdoutLine: {'line': b'-- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/local_setup.zsh\n'}
+[5.041513] (brewer) StdoutLine: {'line': b'-- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/local_setup.dsv\n'}
+[5.041541] (brewer) StdoutLine: {'line': b'-- Installing: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/package.dsv\n'}
+[5.041656] (brewer) StdoutLine: {'line': b'-- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/ament_index/resource_index/packages/brewer\n'}
+[5.041731] (brewer) StdoutLine: {'line': b'-- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/cmake/brewerConfig.cmake\n'}
+[5.041768] (brewer) StdoutLine: {'line': b'-- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/cmake/brewerConfig-version.cmake\n'}
+[5.041796] (brewer) StdoutLine: {'line': b'-- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/package.xml\n'}
+[5.042512] (brewer) CommandEnded: {'returncode': 0}
+[5.065142] (brewer) JobEnded: {'identifier': 'brewer', 'rc': 0}
+[5.065501] (-) EventReactorShutdown: {}

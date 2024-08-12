@@ -1,0 +1,10 @@
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer/CMakeFiles/uninstall.dir
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer/CMakeFiles/brewer_uninstall.dir
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer/CMakeFiles/brewer_node.dir
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer/CMakeFiles/test.dir
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer/CMakeFiles/edit_cache.dir
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer/CMakeFiles/rebuild_cache.dir
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer/CMakeFiles/list_install_components.dir
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer/CMakeFiles/install.dir
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer/CMakeFiles/install/local.dir
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer/CMakeFiles/install/strip.dir

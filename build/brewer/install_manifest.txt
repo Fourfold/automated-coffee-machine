@@ -1,0 +1,16 @@
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/lib/brewer/brewer_node
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/ament_index/resource_index/package_run_dependencies/brewer
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/ament_index/resource_index/parent_prefix_path/brewer
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/environment/ament_prefix_path.sh
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/environment/ament_prefix_path.dsv
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/environment/path.sh
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/environment/path.dsv
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/local_setup.bash
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/local_setup.sh
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/local_setup.zsh
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/local_setup.dsv
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/package.dsv
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/ament_index/resource_index/packages/brewer
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/cmake/brewerConfig.cmake
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/cmake/brewerConfig-version.cmake
+/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/package.xml

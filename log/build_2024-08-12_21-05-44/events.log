@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000405] (brewer) JobQueued: {'identifier': 'brewer', 'dependencies': OrderedDict()}
+[0.000449] (brewer) JobStarted: {'identifier': 'brewer'}
+[0.004416] (brewer) JobProgress: {'identifier': 'brewer', 'progress': 'cmake'}
+[0.005063] (brewer) JobProgress: {'identifier': 'brewer', 'progress': 'build'}
+[0.005677] (brewer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer', '--', '-j16', '-l16'], 'cwd': '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fourfold'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fourfold'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1968'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3e46dbb6e0e273051675db7066ba12fc'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fourfold'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fourfold'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/fourfold/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fourfold-Victus:@/tmp/.ICE-unix/1968,unix/fourfold-Victus:/tmp/.ICE-unix/1968'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d2fab482_5eb2_4eeb_b86b_9018974aeb5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.291'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3e46dbb6e0e273051675db7066ba12fc'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer:/opt/ros/humble')]), 'shell': False}
+[0.037761] (brewer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/brewer_node.dir/src/brewer_node.cpp.o\x1b[0m\n'}
+[0.099991] (-) TimerEvent: {}
+[0.200253] (-) TimerEvent: {}
+[0.300452] (-) TimerEvent: {}
+[0.400695] (-) TimerEvent: {}
+[0.501032] (-) TimerEvent: {}
+[0.601340] (-) TimerEvent: {}
+[0.701649] (-) TimerEvent: {}
+[0.801961] (-) TimerEvent: {}
+[0.902291] (-) TimerEvent: {}
+[1.002623] (-) TimerEvent: {}
+[1.102884] (-) TimerEvent: {}
+[1.203225] (-) TimerEvent: {}
+[1.255942] (brewer) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/src/brewer/src/brewer_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid BrewerNode::brew_coffee(const String&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.256090] (brewer) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/src/brewer/src/brewer_node.cpp:24:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kstatus\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.256129] (brewer) StderrLine: {'line': b'   24 |         BT::NodeStatus \x1b[01;35m\x1b[Kstatus\x1b[m\x1b[K = tree.tickRoot();\n'}
+[1.256159] (brewer) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.256185] (brewer) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/src/brewer/src/brewer_node.cpp:20:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcoffee\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.256213] (brewer) StderrLine: {'line': b'   20 |     void brew_coffee(\x1b[01;35m\x1b[Kconst std_msgs::msg::String & coffee\x1b[m\x1b[K) {\n'}
+[1.256238] (brewer) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.303410] (-) TimerEvent: {}
+[1.313130] (brewer) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/src/brewer/include/brewer/tree_nodes.h:2\x1b[m\x1b[K,\n'}
+[1.313244] (brewer) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/src/brewer/src/brewer_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.313274] (brewer) StderrLine: {'line': b'/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = BrewEspresso; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.313311] (brewer) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/src/brewer/src/brewer_node.cpp:10:48:\x1b[m\x1b[K   required from here\n'}
+[1.313337] (brewer) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:407:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: [registerNode]: since you have a static method providedPorts(), you MUST add a constructor sign signature (const std::string&, const NodeParameters&)\n'}
+[1.313364] (brewer) StderrLine: {'line': b'\n'}
+[1.313499] (brewer) StderrLine: {'line': b'  407 |     static_assert(\x1b[01;31m\x1b[K!(has_static_ports_list && !param_constructable)\x1b[m\x1b[K, "[registerNode]: "\n'}
+[1.313554] (brewer) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.313581] (brewer) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:407:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K((!(bool)has_static_ports_list) || ((bool)param_constructable))\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[1.313607] (brewer) StderrLine: {'line': b'/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = BrewCappucino; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.313631] (brewer) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/src/brewer/src/brewer_node.cpp:11:49:\x1b[m\x1b[K   required from here\n'}
+[1.313654] (brewer) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:407:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: [registerNode]: since you have a static method providedPorts(), you MUST add a constructor sign signature (const std::string&, const NodeParameters&)\n'}
+[1.313678] (brewer) StderrLine: {'line': b'\n'}
+[1.313701] (brewer) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:407:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K((!(bool)has_static_ports_list) || ((bool)param_constructable))\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[1.403600] (-) TimerEvent: {}
+[1.503940] (-) TimerEvent: {}
+[1.604299] (-) TimerEvent: {}
+[1.704637] (-) TimerEvent: {}
+[1.804908] (-) TimerEvent: {}
+[1.905239] (-) TimerEvent: {}
+[2.005523] (-) TimerEvent: {}
+[2.105808] (-) TimerEvent: {}
+[2.206128] (-) TimerEvent: {}
+[2.306441] (-) TimerEvent: {}
+[2.406746] (-) TimerEvent: {}
+[2.484786] (brewer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/brewer_node.dir/build.make:76: CMakeFiles/brewer_node.dir/src/brewer_node.cpp.o] Error 1\n'}
+[2.485050] (brewer) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brewer_node.dir/all] Error 2\n'}
+[2.485258] (brewer) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.487068] (brewer) CommandEnded: {'returncode': 2}
+[2.507326] (-) TimerEvent: {}
+[2.507547] (brewer) JobEnded: {'identifier': 'brewer', 'rc': 2}
+[2.518066] (-) EventReactorShutdown: {}

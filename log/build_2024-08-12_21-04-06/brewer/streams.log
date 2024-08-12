@@ -1,0 +1,23 @@
+[0.006s] Invoking command in '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer -- -j16 -l16
+[0.029s] [35m[1mConsolidate compiler generated dependencies of target brewer_node[0m
+[0.039s] [100%] Built target brewer_node
+[0.046s] Invoked command in '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer -- -j16 -l16
+[0.066s] Invoking command in '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer
+[0.070s] -- Install configuration: ""
+[0.070s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/lib/brewer/brewer_node
+[0.070s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/ament_index/resource_index/package_run_dependencies/brewer
+[0.070s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/ament_index/resource_index/parent_prefix_path/brewer
+[0.070s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/environment/ament_prefix_path.sh
+[0.070s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/environment/ament_prefix_path.dsv
+[0.070s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/environment/path.sh
+[0.070s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/environment/path.dsv
+[0.070s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/local_setup.bash
+[0.070s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/local_setup.sh
+[0.070s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/local_setup.zsh
+[0.070s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/local_setup.dsv
+[0.070s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/package.dsv
+[0.070s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/ament_index/resource_index/packages/brewer
+[0.070s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/cmake/brewerConfig.cmake
+[0.070s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/cmake/brewerConfig-version.cmake
+[0.070s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/install/brewer/share/brewer/package.xml
+[0.071s] Invoked command in '/home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind sessions/inmind-session-12/automated-coffee-machine/build/brewer
