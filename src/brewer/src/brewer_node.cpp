@@ -40,10 +40,6 @@ private:
 };
 
 int main(int argc, char * argv[]) {
-    // Simulate setting global variables and executing the tree
-    user_wants_coffee = true;
-    cleaning_mode = false;
-
     rclcpp::init(argc, argv);
     rclcpp::spin(std::make_shared<BrewerNode>());
     rclcpp::shutdown();

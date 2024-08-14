@@ -3,10 +3,6 @@
 #include <iostream>
 #include <filesystem>
 
-// Global user input variables (simulated)
-bool user_wants_coffee = false;
-bool cleaning_mode = false;
-
 // Action Node to fill up the coffee mug
 class FillUpCoffeeMug : public BT::SyncActionNode {
 public:
